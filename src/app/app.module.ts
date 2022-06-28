@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 //importal o modulo
 import { LoginModule} from './login';
 
+
 @NgModule({
   declarations: [
     AppComponent
