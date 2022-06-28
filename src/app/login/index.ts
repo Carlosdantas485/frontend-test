@@ -1,3 +1,3 @@
 export * from './login.module';
-export * from './components';
-export * from './service';
+export * from './login.component';
+

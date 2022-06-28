@@ -3,18 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
-//importal o modulo
-import { LoginModule} from './login';
+import { AppRoutingModule } from './app-routing.module';
+import { OrdersComponent } from './orders/orders.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    OrdersComponent,
+    OrdersComponent
   ],
   imports: [
     BrowserModule,
-    //importar o modulo 
-    LoginModule
+
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
