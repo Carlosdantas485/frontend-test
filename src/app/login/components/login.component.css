@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+}
+
+.content{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.bg-img{
+    background-color: white;
+    height: 50vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+
+}
+.banner-login{
+    width: 100%;
+}
+
+.input-form{
+    background-color: rgb(55, 165, 165);
+    padding: 40px;
+    height: 50vh;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+
+}
