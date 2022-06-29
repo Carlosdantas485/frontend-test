@@ -22,17 +22,29 @@ p{
 }
 
 .content-edit{
-    background-color: rgb(255, 255, 255);
-    width: 100vw;
+    background-image: url(../../assets/img/bg-site.jpg);
+    background-size: 100%;
+    
+    backface-visibility: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
 
+.title-page{text-align: center;
+    width: 100%;
+    margin: 20px;
+    color: white;
+}
+
 .view{
-    background-color: rgb(197, 197, 253);
-    box-shadow:  1px 1px 10px 1px black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 1px 0px rgb(212, 173, 0);
     width: 400px;
     padding: 10px;
 }
